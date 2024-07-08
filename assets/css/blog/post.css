@@ -1,6 +1,6 @@
 .post-feed {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
 
@@ -21,13 +21,18 @@
 .post-wrapper {
     flex-grow: 1;
     padding: 20px;
-    background-color: var(--white-color);
+    background-color: var(--card-background-color);
+}
+
+.portfolio-post-wrapper {
+    flex-grow: 1;
+    padding: 10px;    
 }
 
 .post-tag {
     display: inline-block;
     margin-bottom: 8px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1;
     color: var(--tag-color, var(--ghost-accent-color));
@@ -40,6 +45,11 @@
     font-size: 1.6rem;
     line-height: 1.35;
     word-break: break-word;
+}
+
+.post-title-center {
+    text-align: center;    
+    color: var(--portfolio-post-title-color);
 }
 
 .has-serif-title .post-title {
@@ -63,7 +73,7 @@
     justify-content: space-between;
     height: 42px;
     padding: 0 20px;
-    background-color: var(--white-color);
+    background-color: var(--card-background-color);
     border-top: 1px solid var(--light-gray-color);
 }
 
@@ -114,6 +124,10 @@
     border: 2px solid var(--white-color);
     border-radius: 50%;
     object-fit: cover;
+}
+
+a.kg-bookmark-container {
+    background-color: var(--card-background-color) !important;
 }
 
 @media (max-width: 767px) {

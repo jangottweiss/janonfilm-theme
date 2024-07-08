@@ -5,8 +5,7 @@
 }
 
 .site-content {
-    flex-grow: 1;
-    padding-top: 30px;
+    flex-grow: 1;    
     padding-bottom: 30px;
 }
 
@@ -26,4 +25,8 @@
     .sidebar-column {
         order: 3;
     }
+}
+
+.gh-content {
+    margin-top: 2rem;
 }

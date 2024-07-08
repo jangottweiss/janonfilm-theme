@@ -1,9 +1,13 @@
 .gh-article {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .page-template .gh-article {
-    margin-top: 0;
+    margin-top: 0px;
+}
+
+.page-template .gh-article-header {
+    margin-top: 0px;
 }
 
 .gh-article-meta {

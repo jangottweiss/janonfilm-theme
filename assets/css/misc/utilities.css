@@ -1,6 +1,6 @@
 .u-shadow {
     overflow: hidden;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: var(--shadow-base);
     transition: box-shadow 0.3s var(--animation-base);
 }
