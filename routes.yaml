@@ -10,7 +10,7 @@ collections:
     filter: tag:[hash-portfolio]
   /collection/:
     permalink: /collection/{slug}/
-    template: portfolio
+    template: collection
     filter: tag:[hash-collection]
   /blog/:
     permalink: /blog/{slug}/

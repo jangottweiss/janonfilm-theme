@@ -1,0 +1,11 @@
+{{!< default}}
+
+<div class="gh-outer">
+    <main class="site-main gh-inner">
+        <div class="post-feed gh-feed">
+            {{#foreach posts}}
+                {{> "collection-loop"}}
+            {{/foreach}}
+        </div>
+    </main>
+</div>
