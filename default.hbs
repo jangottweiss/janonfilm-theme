@@ -67,10 +67,20 @@
             <div class="gh-head-actions">
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
+                        {{!-- SOCIAL MEDIA ICONS HEADER --}}
+                        <a class="gh-head-btn" href="https://www.instagram.com/jan.onfilm/" target="_blank">
+                            <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMinYMin">
+                                <use xlink:href="#img-instagram"></use>
+                            </svg>
+                        </a>
+                        <a class="gh-head-btn" href="https://www.youtube.com/@jan.onfilm/" target="_blank">
+                            <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMinYMin">
+                            <use xlink:href="#img-youtube"></use>
+                            </svg>
+                        </a>
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{else}}
-
                     {{!-- SOCIAL MEDIA ICONS HEADER --}}
                     <a class="gh-head-btn" href="https://www.instagram.com/jan.onfilm/" target="_blank">
                         <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMinYMin">
@@ -82,7 +92,7 @@
                 	    <use xlink:href="#img-youtube"></use>
                         </svg>
                     </a>
-
+                    
                     {{!-- SEARCH HEADER --}}
                     <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     
