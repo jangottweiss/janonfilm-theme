@@ -14,7 +14,7 @@ collections:
     filter: tag:[hash-collection]
   /blog/:
     permalink: /blog/{slug}/
-    template: index
+    template: blog
     filter: tag:[hash-blog]
   /film-stock-archive/:
     permalink: /film-stock-archive/{slug}/
