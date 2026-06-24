@@ -16,6 +16,9 @@
     --animation-base: ease-in-out;
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
     --content-font-size: 1.7rem;
+    --content-width: 780px;
+    --container-width: 1320px;
+    --header-spacing: 40px;
 }
 
 body:not(.post-template):not(.page-template) {

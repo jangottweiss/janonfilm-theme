@@ -30,7 +30,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{meta_title page=(t " (Page %)")}}</title>
+    <title>{{meta_title}}</title>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
 
     {{ghost_head}}
@@ -145,9 +145,6 @@
                         {{navigation type="secondary"}}
                     </nav>
                 {{/if}}
-            </div>
-            <div class="gh-powered-by">
-                {{{t "Powered by {ghostlink}" ghostlink="<a href=\"https://ghost.org/\" target=\"_blank\" rel=\"noopener\">Ghost</a>"}}}
             </div>
         </div>
     </footer>
