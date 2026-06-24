@@ -7,11 +7,11 @@
     <article class="gh-article {{post_class}}">
 
         <header class="gh-article-header gh-canvas">
-            <span class="gh-article-meta"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>                
-                {{#if primary_tag}}                    
+            <span class="gh-article-meta"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>
+                {{#if primary_tag}}
                     <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                     —
-                {{/if}}            
+                {{/if}}
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD. MMM YY"}}</time>
             </span>
 

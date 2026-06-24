@@ -48,12 +48,12 @@
 }
 
 .post-title-center {
-    text-align: center;    
+    text-align: center;
     color: var(--portfolio-post-title-color);
 }
 
-.has-serif-title .post-title {
-    font-family: var(--font-serif);
+.has-serif-title:not([class*=" gh-font-heading"]):not([class^="gh-font-heading"]) .post-title {
+    font-family: var(--gh-font-heading, var(--font-serif));
 }
 
 .post-excerpt {
@@ -63,8 +63,8 @@
     word-break: break-word;
 }
 
-.has-serif-body .post-excerpt {
-    font-family: var(--font-serif);
+.has-serif-body:not([class*=" gh-font-body"]):not([class^="gh-font-body"]) .post-excerpt {
+    font-family: var(--gh-font-body, var(--font-serif));
 }
 
 .post-footer {
