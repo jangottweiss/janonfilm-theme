@@ -2,6 +2,10 @@
     background-color: transparent;
 }
 
+.is-head-open #gh-head {
+    background-color: var(--background-color) !important;
+}
+
 .gh-head-menu,
 .gh-head-actions {
     font-size: 1.2rem;
