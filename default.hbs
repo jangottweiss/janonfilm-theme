@@ -36,7 +36,7 @@
                 <div class="gh-head-brand-wrapper">
                     <a class="gh-head-logo" href="{{@site.url}}">
                         {{#if @site.logo}}
-                            <img src="{{@site.logo}}" alt="{{@site.title}}">
+                            <img src="{{@site.logo}}" alt="{{@site.title}}" fetchpriority="high">
                         {{else}}
                             {{@site.title}}
                         {{/if}}
@@ -148,7 +148,7 @@
     {{> "pswp"}}
 {{/is}}
 
-<script src="{{asset "built/main.min.js"}}"></script>
+<script src="{{asset "built/main.min.js"}}" defer></script>
 
 {{ghost_foot}}
 

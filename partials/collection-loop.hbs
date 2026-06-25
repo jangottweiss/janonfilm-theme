@@ -21,8 +21,7 @@
                     sizes="600px"
                     src="{{img_url feature_image size="l"}}"
                     alt="{{title}}"
-                    loading="lazy"
-                >
+                    {{#if @first}}fetchpriority="high"{{else}}loading="lazy"{{/if}}                >
             </div>
         </figure>
         {{/if}}
